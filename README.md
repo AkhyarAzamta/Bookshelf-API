@@ -28,7 +28,7 @@ Total jam yang dibutuhkan untuk menyelesaikan kelas ini, mulai dari persiapan ke
 <br>
 
 <div align="center">
-  <img src="https://dicodingacademy.blob.core.windows.net/academies/20210421173706d4bf0dcc807c3f97273f94fb780c38f4.png" alt="Dicoding">
+  <img src="https://user-images.githubusercontent.com/95717485/188485794-61262c97-20b1-4f4c-865f-5ccb2a7889c6.png" alt="Dicoding">
 </div>
 
 <br>
