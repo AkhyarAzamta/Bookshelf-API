@@ -7,15 +7,15 @@ const config = {
 
 /**
  * Initiate Hapi Server
- * @param {Object} config
- * @param {number} config.port
- * @param {string} config.host
- * @returns {Hapi.Server}
+ * @param {Object} c
+ * @param {number} c.port
+ * @param {string} c.host
+ * @returns {Promise<Hapi.Server>}
  */
-const init = async (config) => {
+const init = async (c) => {
   const server = Hapi.server({
-    port: config.port,
-    host: config.host,
+    port: c.port,
+    host: c.host,
     routes: {
       cors: {
         origin: ['*'],
@@ -27,6 +27,8 @@ const init = async (config) => {
 
   await server.start();
   console.log(`Server berjalan pada ${server.info.uri}`);
+
+  return server;
 };
 
 init(config);
