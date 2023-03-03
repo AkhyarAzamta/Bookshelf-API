@@ -12,7 +12,8 @@
   "author": "Ervan-Akhyar-Azamta",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^21.3.0"
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "^8.35.0",
