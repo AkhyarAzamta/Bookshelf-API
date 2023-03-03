@@ -28,7 +28,6 @@ const init = async (c) => {
 
   await server.start();
   // console.log(`Server running ${server.info.uri}`);
-
   return server;
 };
 
